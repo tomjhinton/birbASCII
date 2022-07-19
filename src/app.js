@@ -22,7 +22,7 @@ function update(){
   word = box.value
 
   box.blur()
-  if( box.value === 'raph'){
+  if( box.value === 'honk'){
       shaderMaterial.uniforms.uValueA.value = 0
   }else {
     shaderMaterial.uniforms.uValueA.value = 1
@@ -178,7 +178,7 @@ const sketch = (p) => {
 
       p.background('rgba(255,255,255,1)')
 
-      if(word ==='raph'){
+      if(word ==='honk'){
           p.background('rgba(255,255,0,1)')
 
       }
